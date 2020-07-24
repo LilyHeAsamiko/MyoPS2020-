@@ -1,0 +1,73 @@
+%anova
+%C0: category~Dice+ACD
+mdl = 
+
+
+Linear regression model:
+    C0Catogory ~ [Linear formula with 6 terms in 5 predictors]
+
+Estimated Coefficients:
+                   Estimate      SE        tStat       pValue  
+                   ________    _______    _______    __________
+
+    (Intercept)     3.5881      0.4669      7.685    2.1789e-06
+    C0ACD          -1.6734      0.3597    -4.6521    0.00037362
+    C0Edema        0.82167     0.48556     1.6922       0.11273
+    C0Scars         2.0117      1.4419     1.3951       0.18472
+    C0Mean               0           0        NaN           NaN
+    C0All          0.57008      1.2675    0.44977       0.65976
+
+
+Number of observations: 20, Error degrees of freedom: 15
+Root Mean Squared Error: 0.249
+R-squared: 0.71,  Adjusted R-Squared: 0.632
+F-statistic vs. constant model: 9.17, p-value = 0.000591
+
+
+%LGE: category~Dice+ACD
+
+
+mdl2 = 
+
+
+Linear regression model:
+    DECatogory ~ [Linear formula with 6 terms in 5 predictors]
+
+Estimated Coefficients:
+                   Estimate      SE        tStat        pValue  
+                   ________    _______    ________    __________
+
+    (Intercept)      5.3778     0.9326      5.7664    4.8818e-05
+    DEACD           0.30124    0.48731     0.61817       0.54639
+    DEEdema        -0.45538    0.89772    -0.50726       0.61987
+    DEScars          1.9382     1.7577      1.1027       0.28874
+    DEMean           4.9364      2.745      1.7983      0.093721
+    DEAll           -4.0147     2.8602     -1.4036       0.18223
+
+
+Number of observations: 20, Error degrees of freedom: 14
+Root Mean Squared Error: 0.394
+R-squared: 0.321,  Adjusted R-Squared: 0.0779
+F-statistic vs. constant model: 1.32, p-value = 0.311
+
+%T2: category~Dice+ACD
+
+Linear regression model:
+    T2Catogory ~ [Linear formula with 6 terms in 5 predictors]
+
+Estimated Coefficients:
+                   Estimate      SE        tStat      pValue 
+                   ________    ______    _________    _______
+
+    (Intercept)      0.1697    1.1113      0.15271    0.88081
+    T2ACD            3.2793    1.2825       2.5569    0.02281
+    T2Edema         -1.2739    1.9509       -0.653    0.52434
+    T2Scars        -0.32217    5.3862    -0.059814    0.95315
+    T2Mean           15.413    16.745      0.92041    0.37295
+    T2All           -5.9535    5.3133      -1.1205    0.28136
+
+
+Number of observations: 20, Error degrees of freedom: 14
+Root Mean Squared Error: 0.888
+R-squared: 0.418,  Adjusted R-Squared: 0.21
+F-statistic vs. constant model: 2.01, p-value = 0.14

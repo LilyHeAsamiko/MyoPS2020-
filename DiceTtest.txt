@@ -1,0 +1,234 @@
+
+%ttest between Dice of edema, bffs CMRI and T-2weighted CMRI,  bffs CMRI and LGE
+%CMRI and bffs CMRI and T-2weighted CMRI.
+
+h1 =
+
+     1
+
+
+p1 =
+
+    0.0091
+
+
+ci1 =
+
+   -0.0897
+   -0.0145
+
+
+stats1 = 
+
+  struct with fields:
+
+    tstat: -2.9027
+       df: 19
+       sd: 0.0803
+
+
+
+h2 =
+
+     1
+
+
+p2 =
+
+    0.0013
+
+
+ci2 =
+
+    0.0395
+    0.1377
+
+
+stats2 = 
+
+  struct with fields:
+
+    tstat: 3.7766
+       df: 19
+       sd: 0.1049
+
+
+h3 =
+
+     1
+
+
+p3 =
+
+   1.4743e-06
+
+
+ci3 =
+
+    0.0979
+    0.1836
+
+
+stats3 = 
+
+  struct with fields:
+
+    tstat: 6.8745
+       df: 19
+       sd: 0.0915
+
+%ttest between Dice of scars, bffs CMRI and T-2weighted CMRI,  bffs CMRI and LGE
+%CMRI and bffs CMRI and T-2weighted CMRI.
+
+H1 =
+
+     1
+
+
+P1 =
+
+    0.0010
+
+
+Ci1 =
+
+   -0.1717
+   -0.0513
+
+
+Stats1 = 
+
+  struct with fields:
+
+    tstat: -3.8762
+       df: 19
+       sd: 0.1287
+
+
+H2 =
+
+     1
+
+
+P2 =
+
+    0.0064
+
+
+Ci2 =
+
+   -0.1873
+   -0.0353
+
+
+Stats2 = 
+
+  struct with fields:
+
+    tstat: -3.0641
+       df: 19
+       sd: 0.1624
+
+
+
+H3 =
+
+     1
+
+
+P3 =
+
+   1.1991e-06
+
+
+Ci3 =
+
+   -0.2317
+   -0.1248
+
+
+Stats3 = 
+
+  struct with fields:
+
+    tstat: -6.9778
+       df: 19
+       sd: 0.1142
+
+
+%between lable4(edema) and lable5(scars)
+
+h11 =
+
+     1
+
+
+p11 =
+
+   2.7210e-04
+
+
+ci11 =
+
+    0.0315
+    0.0873
+
+
+stats11 = 
+
+  struct with fields:
+
+    tstat: 4.4541
+       df: 19
+       sd: 0.0596
+
+
+h21 =
+
+     1
+
+
+p21 =
+
+   3.0843e-13
+
+
+ci21 =
+
+   -0.1572
+   -0.1238
+
+
+stats21 = 
+
+  struct with fields:
+
+    tstat: -17.6388
+       df: 19
+       sd: 0.0356
+
+
+h31 =
+
+     1
+
+
+p31 =
+
+   1.8004e-10
+
+
+ci31 =
+
+    0.1480
+    0.2089
+
+
+stats31 = 
+
+  struct with fields:
+
+    tstat: 12.2608
+       df: 19
+       sd: 0.0651
+
